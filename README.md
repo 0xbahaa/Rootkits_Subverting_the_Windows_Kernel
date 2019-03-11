@@ -4,7 +4,9 @@
 
 I have arranged the code according to its order in the book.<br />
 I tested most of the code on Windows XP SP0 (no service packs installed) in a VM.<br />
-Sample code includes the following:<br />
+I haven't included the code for the networking from <b>Chapter 9: Covert Channels</b> (using TDI and NDIS).<br />
+<br />
+The code includes the following:<br />
 1. Basic driver.
 2. Creating a file handle and a symlink
 3. Loading a driver using the quick and dirty way
@@ -27,9 +29,8 @@ Sample code includes the following:<br />
 20. Privilege elevation (using DKOM)
 21. Playing with the Keyboard LEDs (accessing the hardware directly)
 22. Keysniffer (by accessing the hardware directly)<br />
-23-27. RootKit Detection methods.
-
-
+23-27. RootKit Detection methods.<br />
+<br />
 Lessons were put in order ( + some added code) by: [0xbahaa](https://patch8.com)<br />
 Forked from the [original mirror by: fdiskyou](https://github.com/fdiskyou/www.rootkit.com)<br />
 Links to the book:
