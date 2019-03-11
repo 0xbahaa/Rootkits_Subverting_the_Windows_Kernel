@@ -29,8 +29,8 @@ The code includes the following:<br />
 20. Privilege elevation (using DKOM)
 21. Playing with the Keyboard LEDs (accessing the hardware directly)
 22. Keysniffer (by accessing the hardware directly)<br />
-23-27. RootKit Detection methods.<br />
-<br />
+23-27. RootKit Detection methods.<br /><br />
+
 Lessons were put in order ( + some added code) by: [0xbahaa](https://patch8.com)<br />
 Forked from the [original mirror by: fdiskyou](https://github.com/fdiskyou/www.rootkit.com)<br />
 Links to the book:
