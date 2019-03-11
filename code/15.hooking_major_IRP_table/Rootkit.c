@@ -55,6 +55,7 @@ NTSTATUS InstallTCPDriverHook()
 
 	OldIrpMjDeviceControl = pDrv_tcpip->MajorFunction[IRP_MJ_DEVICE_CONTROL]; 
 	if (OldIrpMjDeviceControl)
+			// replace the IRP_MJ_functions' addresses with the address of our hook func
 		InterlockedExchange ((PLONG)&pDrv_tcpip->MajorFunction[IRP_MJ_DEVICE_CONTROL], (LONG)HookedDeviceControl);
 	
 	return STATUS_SUCCESS;

@@ -1,4 +1,0 @@
-TARGETNAME=hybridhook
-TARGETPATH=.
-TARGETTYPE=DRIVER
-SOURCES=hybridhook.c

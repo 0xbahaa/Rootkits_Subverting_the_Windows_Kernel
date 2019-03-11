@@ -42,6 +42,55 @@ NTSTATUS DriverEntry( IN PDRIVER_OBJECT theDriverObject, IN PUNICODE_STRING theR
 	DbgPrint("dwPlatformId: %u", my_osversion_struct.dwPlatformId);
 	DbgPrint("szCSDVersion: %s", my_osversion_struct.szCSDVersion);
 	
-	 
+	switch (my_osversion_struct.dwMajorVersion) {
+	
+		case 4:
+			DbgPrint("Windows NT 4");
+			break;
+		case 5:
+			switch(my_osversion_struct.dwMinorVersion){
+				case 0:
+					DbgPrint("Windows 2000");
+					break;
+				case 1:
+					DbgPrint("Win XP");
+					break;
+				case 2:
+					DbgPrint("Win XP Pro x64 or Win Server 2003/HomeServer/2003-R2");
+					break;
+				default:
+					DbgPrint("Unknown windows version");
+					break;
+			}
+			
+			break;
+		case 6:
+			switch(my_osversion_struct.dwMinorVersion){
+				case 0:
+					DbgPrint("Windows Vista or Windows Server 2008");
+					break;
+				case 1:
+					DbgPrint("Windows 7 or Win Server 2008 R2");
+					break;
+				case 2:
+					DbgPrint("Windows 8 or Win Server 2012");
+					break;
+				case 3:
+					DbgPrint("Windows 8.1 or Win Server 2012 R2");
+					break;
+				default:
+					DbgPrint("Unknown windows version");
+					break;
+			}
+			
+			break;
+		case 10:
+			DbgPrint("Windows 10 or Windows Server 2016");
+			break;
+		default:
+			DbgPrint("Unknown windows version");
+			break;
+	}
+	
 	return STATUS_SUCCESS;
 }
