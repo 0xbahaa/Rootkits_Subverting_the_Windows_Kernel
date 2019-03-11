@@ -1,3 +1,0 @@
-kdl -i
-
-PAUSE

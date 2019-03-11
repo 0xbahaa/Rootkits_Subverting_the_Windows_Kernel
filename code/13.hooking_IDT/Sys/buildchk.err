@@ -1,0 +1,19 @@
+rk_interrupt.c(144) : error C4013: 'DebugPrint' undefined; assuming extern returning int
+rk_interrupt.c(145) : error C2275: 'IDTINFO' : illegal use of this type as an expression
+rk_interrupt.h(73) : error see declaration of 'IDTINFO'
+rk_interrupt.c(145) : error C2146: syntax error : missing ';' before identifier 'idt_info'
+rk_interrupt.c(145) : error C2144: syntax error : '<Unknown>' should be preceded by '<Unknown>'
+rk_interrupt.c(145) : error C2144: syntax error : '<Unknown>' should be preceded by '<Unknown>'
+rk_interrupt.c(145) : error C2143: syntax error : missing ';' before 'identifier'
+rk_interrupt.c(145) : error C2065: 'idt_info' : undeclared identifier
+rk_interrupt.c(146) : error C2275: 'IDTENTRY' : illegal use of this type as an expression
+rk_interrupt.h(65) : error see declaration of 'IDTENTRY'
+rk_interrupt.c(146) : error C2065: 'idt_entries' : undeclared identifier
+rk_interrupt.c(147) : error C2275: 'IDTENTRY' : illegal use of this type as an expression
+rk_interrupt.h(65) : error see declaration of 'IDTENTRY'
+rk_interrupt.c(147) : error C2065: 'int2e_entry' : undeclared identifier
+rk_interrupt.c(152) : error C2224: left of '.LowIDTbase' must have struct/union type
+rk_interrupt.c(152) : error C2224: left of '.HiIDTbase' must have struct/union type
+rk_interrupt.c(154) : error C2109: subscript requires array or pointer type
+rk_interrupt.c(154) : error C2109: subscript requires array or pointer type
+rk_interrupt.c(160) : error C2109: subscript requires array or pointer type

@@ -1,0 +1,4 @@
+TARGETNAME=os_version
+TARGETPATH=.
+TARGETTYPE=DRIVER
+SOURCES=os_version.c

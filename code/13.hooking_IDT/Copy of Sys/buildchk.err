@@ -1,0 +1,10 @@
+rk_interrupt.c(52) : error C2220: warning treated as error - no object file generated
+rk_interrupt.c(52) : error C4102: 'PrintDebug' : unreferenced label
+rk_interrupt.c(52) : error C4102: 'TestSyscallLimit' : unreferenced label
+rk_interrupt.c(52) : error C4102: 'TestPID' : unreferenced label
+rk_interrupt.c(58) : error C4018: '>=' : signed/unsigned mismatch
+rk_interrupt.c(116) : error C4047: '=' : 'unsigned long *' differs in levels of indirection from 'unsigned long'
+rk_interrupt.c(123) : error C4047: '=' : 'unsigned long *' differs in levels of indirection from 'PUNICODE_STRING * '
+rk_interrupt.c(124) : error C4047: 'function' : 'PCUNICODE_STRING' differs in levels of indirection from 'unsigned long'
+basic.c(224) : error C2220: warning treated as error - no object file generated
+basic.c(224) : error C4047: 'function' : 'PDEVICE_OBJECT * ' differs in levels of indirection from 'DEVICE_OBJECT *'

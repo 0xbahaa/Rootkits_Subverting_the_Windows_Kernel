@@ -1,4 +1,0 @@
-TARGETNAME=swap_hook
-TARGETPATH=release
-TARGETTYPE=DRIVER
-SOURCES=xde.c hash.c main.c
