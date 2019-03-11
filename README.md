@@ -1,9 +1,5 @@
-# www.rootkit.com
-www.rootkit.com mirror
-* vault - www.rootkit.com users section
-* rootkit_com_mysqlbackup_02_06_11 - www.rootkit.com mysql database dump leaked
-* subverting_the_windows_kernel - Rootkits Subverting The Windows Kernel book: all source code examples
+# Rootkits Subverting The Windows Kernel book: source code examples
 
-## Archive
+Lessons were put in order with some code changes by: [0xbahaa](https://patch8.com)
+Forked from the [original mirror by: fdiskyou](https://github.com/fdiskyou/www.rootkit.com)
 
-* https://web.archive.org/web/20110205151357/http://www.rootkit.com/
